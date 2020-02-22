@@ -32,6 +32,7 @@ spec:
       - image: dockerashu/ashuwebadhocapp:v1
         name: ashuwebadhocapp
         resources: {}
+        imagePullPolicy: Always
 status: {}
 
 ---
